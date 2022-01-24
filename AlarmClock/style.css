@@ -1,0 +1,67 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    background-image: url(clock.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin-top: 5%;
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #020202;
+
+}    
+
+.container {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+  
+}
+
+#clock {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 4rem;
+    background-color: #f3f4f6;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.controls {
+    margin-top: 16px;
+}
+
+.button {
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    color: #f3f4f6;
+    padding: 12px 20px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.set-alarm {
+    background-image: url(http://astronomy.com/~/media/CFA1C57AA6EF466F856B54B400F0C493.jpg);
+}
+
+.clear-alarm {
+    background-image: url(http://astronomy.com/~/media/CFA1C57AA6EF466F856B54B400F0C493.jpg);
+}
+
+.piano option{
+    font-family: cursive ;
+}

@@ -1,0 +1,74 @@
+:root{
+    --primary: crimson;
+    --dark: #1f2937;
+    --light: #f3f4f6;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    margin-top: 5%;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url(stop.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    
+
+}
+
+.watch {
+    text-align: center;
+    width: 100%;
+    margin: 4rem auto;
+
+    
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+
+}
+
+#stopwatch {
+    font-size: 6rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+
+}
+
+
+
+.controls button {
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    user-select: none;
+    cursor: pointer;
+
+    color: var(--light);
+    font-size: 1.5rem;
+    background-color: var(--primary);
+    margin: 0 0.5rem;
+    padding: 1rem 1rem;
+
+    transition: 0.4s;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+button:active {
+    background-color: var(--dark);
+}
